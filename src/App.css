@@ -1,0 +1,73 @@
+.card {
+  width: 280px;
+  margin-top: 90px ;
+  background: var(--card);
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,.35);
+  border: 1px solid rgba(255,255,255,.06);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+/* brilho sutil no topo */
+.card::before{
+  content:"";
+  position:absolute;
+  inset:-1px -1px auto -1px;
+  height: 60px;
+  pointer-events: none;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(0,0,0,.45);
+  border-color: rgba(124,140,255,.35);
+}
+
+.card img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;                 /* redondinha */
+  display: block;
+  margin: 4px auto 14px;
+  border: 3px solid rgba(124,140,255,.6);        /* aro */
+  box-shadow: 0 6px 16px rgba(124,140,255,.25);
+}
+
+.card .card-body{
+  text-align: center;
+}
+
+.card h2{
+  margin: 6px 0 6px;
+  font-size: 1.35rem;
+  letter-spacing: .3px;
+}
+
+.card p{
+  margin: 0;
+  line-height: 1.45;
+  color: var(--muted);
+  font-size: .98rem;
+}
+
+/* badge/rodapé opcional */
+.footer{
+  margin-top: 14px;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: .8rem;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: #0b1020;
+  font-weight: 600;
+}
+h2{
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
