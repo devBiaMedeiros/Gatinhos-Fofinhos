@@ -6,7 +6,7 @@ Este projeto é uma apresentação em *cards* dos gatinhos da família *Bastos C
 - React
 - TypeScript / JavaScript
 - CSS 
-- Surge 
+  
 
 ---
 
