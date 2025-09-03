@@ -1,11 +1,15 @@
 Este projeto é uma apresentação em *cards* dos gatinhos da família *Bastos Correa*, desenvolvido com React.
 
+site : https://gatinhos-fofinhos-6pr4.vercel.app/
+
+
 ---
 
 ## 🚀 Tecnologias utilizadas
 - React
 - TypeScript / JavaScript
-- CSS 
+- CSS
+- vite 
   
 
 ---
@@ -16,6 +20,8 @@ O objetivo do trabalho foi criar uma página simples e estilizada mostrando os g
 ---
 
 ## 📸 Print do projeto
-<img width="1344" height="608" alt="Captura de tela 2025-08-29 185541" src="https://github.com/user-attachments/assets/34e0e57a-93e7-4527-8901-49694b37393b" />
+
+![07cafdd5-495f-4386-a164-304c927ef2a0](https://github.com/user-attachments/assets/798d55ae-90bd-4005-a5bf-4d79ba709227)
+
 
 
