@@ -8,7 +8,7 @@ import Card from "./components.tsx/Card";
 
 function App() {
   return (
-    <>
+    <div className="cards-container">
       <h2>Família Bastos Correa</h2>
       <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
       <Card title="Maktub" foto={MaktubImg} footer={<span>Idade: 7 anos</span>}>
@@ -32,7 +32,7 @@ function App() {
         Desconfiado e independente, mas muito leal.
       </Card>
       </div>
-    </>
+    </div>
   )
 }
 
